@@ -1,12 +1,11 @@
 <html>
   <head>
-    {% if title %}
-    <title>{{title}} - Меню</title>
-    {% else %}
-    <title>Wolcome to CheatMeal</title>
-    {% endif %}
+    <meta charset="utf-8" />
+    Coming soon...
   </head>
+
   <body>
-    <h1>Hello, {{ user.username }}!</h1>
+    <img src="{{ url_for('static', filename='/images/menu_face.jpg') }}" />
+    <img src="{{ url_for('static', filename='/images/menu_backend.jpg') }}" />
   </body>
 </html>
